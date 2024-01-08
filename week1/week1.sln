@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hello_world", "0_hello_world\hello_world.csproj", "{F9CD7262-B663-4CCE-83B2-FACD0DE55D08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fizbuz_flat", "1_fizbuz_flat\fizbuz_flat.csproj", "{90A7AED5-185C-4940-8F33-3A96189A6D98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_fizbuz_class", "2_fizbuz_class\2_fizbuz_class.csproj", "{DFD3F9B6-560F-4B90-AFD0-689AC27E373D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9CD7262-B663-4CCE-83B2-FACD0DE55D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9CD7262-B663-4CCE-83B2-FACD0DE55D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9CD7262-B663-4CCE-83B2-FACD0DE55D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9CD7262-B663-4CCE-83B2-FACD0DE55D08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90A7AED5-185C-4940-8F33-3A96189A6D98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A7AED5-185C-4940-8F33-3A96189A6D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A7AED5-185C-4940-8F33-3A96189A6D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A7AED5-185C-4940-8F33-3A96189A6D98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD3F9B6-560F-4B90-AFD0-689AC27E373D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD3F9B6-560F-4B90-AFD0-689AC27E373D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD3F9B6-560F-4B90-AFD0-689AC27E373D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD3F9B6-560F-4B90-AFD0-689AC27E373D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
