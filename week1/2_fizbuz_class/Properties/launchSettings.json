@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "2_fizbuz_class": {
+      "commandName": "Project",
+      "commandLineArgs": "30"
+    }
+  }
+}
