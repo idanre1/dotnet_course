@@ -9,7 +9,7 @@ interface IStackPopper<out T>
 // Define the covariant interface.
 interface IStackPusher<in T>
 {
-    void Push(T item);
+    void Push(T t);
 }
 
 // Define a Stack class with two interfaces.

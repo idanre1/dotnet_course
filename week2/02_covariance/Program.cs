@@ -31,7 +31,6 @@ stack.Push(2);
 Console.WriteLine(stack.Pop());
 Console.WriteLine(stack.Pop());
 
-
 // Part 2
 // Define two stacks
 // B inherited from A
@@ -44,13 +43,25 @@ IStackPusher<B> ia = stack_a;
 
 // Example of Covariance
 // Pushing B into A
-ia.Push(new B());
+stack_a.Push(new A());
 stack_a.Push(new B());
-A a = stack_a.Pop();
+stack_a.Push(new B());
+
+A a1 = stack_a.Pop();
+Console.WriteLine(a1.GetType());
+A a2 = stack_a.Pop();
+Console.WriteLine(a2.GetType());
+A a3 = stack_a.Pop();
+Console.WriteLine(a3.GetType());
 
 // Example of Contravariance
 // Poping A from B
-var b = (B)stack_a.Pop();
+stack_b.Push(new B()); // compilation error: stack_b.Push(new A());
+stack_b.Push(new B());
+stack_b.Push(new B());
+A b1 = stack_b.Pop();
+Console.WriteLine(b1.GetType());
+
 
 // Inheritance
 public class A;
